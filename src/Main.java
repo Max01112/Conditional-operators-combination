@@ -7,16 +7,11 @@ public class Main {
         System.out.println(" ");
         System.out.println("Задание 1");
 
-        int clientOS = 0;
-        switch (clientOS) {
-            case 0:
-                System.out.println("У пользователя iOS");
-                break;
-            case 1:
-                System.out.println("У пользователя Android");
-                break;
-            default:
-                System.out.println("В списке нет такой ОС");
+        int clientOS = 1;
+        if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientOS == 1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
         }
 
         System.out.println(" ");
@@ -66,7 +61,7 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Задание 5");
-        int monthNumber = 12;
+        int monthNumber = 122;
         switch (monthNumber) {
             case 12:
             case 1:
